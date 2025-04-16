@@ -1,0 +1,44 @@
+spring:
+  application:
+    name: TorrentBot
+  main:
+    allow-circular-references: true
+  data:
+    mongodb:
+      uri: mongodb://mongo_WtQxKK:mongo_EBz3jn@192.99.35.111:27017/BotDB?authSource=admin&authMechanism=SCRAM-SHA-256
+      database: BotDB
+  redis:
+    host: 192.99.35.111
+    port: 6379
+    password: WtQxKK
+    database: 0
+
+bot:
+  options:
+    admins: 6378373740
+    token: 8079189838:AAGLyOHz1C0JYjEOGZA69YdfjteTqJWkNNM
+    username: TorrentBot
+
+qb:
+  options:
+    host: http://192.99.35.111:8181
+    username: admin
+    password: Sgwmbhszj%2B1!
+    tag: tg-download
+    category: DS
+    download-path: /media/av
+
+alist:
+  options:
+    host: http://192.99.35.111:5244
+    username: admin
+    password: Sgwmbhszj+1!
+    src-path: /下载/
+    target-path: /media/local/整理
+
+logging:
+  level:
+    root: INFO
+    org.springframework: INFO
+    tdck.qdz.torrentbot: DEBUG
+    tdck.qdz.torrentbot.service.QbService: DEBUG 
