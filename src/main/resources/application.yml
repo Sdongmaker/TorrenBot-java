@@ -5,34 +5,34 @@ spring:
     allow-circular-references: true
   data:
     mongodb:
-      uri: mongodb://mongo_WtQxKK:mongo_EBz3jn@192.99.35.111:27017/BotDB?authSource=admin&authMechanism=SCRAM-SHA-256
+      uri: mongodb://mKK:mon3jn@1:27017/BotDB?authSource=admin&authMechanism=SCRAM-SHA-256
       database: BotDB
   redis:
-    host: 192.99.35.111
+    host:
     port: 6379
     password: WtQxKK
     database: 0
 
 bot:
   options:
-    admins: 6378373740
-    token: 8079189838:AAGLyOHz1C0JYjEOGZA69YdfjteTqJWkNNM
-    username: TorrentBot
+    admins:
+    token:
+    username:
 
 qb:
   options:
-    host: http://192.99.35.111:8181
-    username: admin
-    password: Sgwmbhszj%2B1!
+    host:
+    username:
+    password:
     tag: tg-download
     category: DS
     download-path: /media/av
 
 alist:
   options:
-    host: http://192.99.35.111:5244
+    host:
     username: admin
-    password: Sgwmbhszj+1!
+    password:
     src-path: /下载/
     target-path: /media/local/整理
 
